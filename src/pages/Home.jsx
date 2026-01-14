@@ -1,4 +1,4 @@
-import Dashboard from "../components/Dashboard.jsx";
+import Dashboard from "../components/dashboard.jsx"
 import {useUser} from "../hooks/useUser.jsx";
 import InfoCard from "../components/InfoCard.jsx";
 import {Coins, Wallet, WalletCards} from "lucide-react";

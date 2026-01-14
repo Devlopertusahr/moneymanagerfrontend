@@ -37,7 +37,7 @@ const AddCategoryForm = ({onAddCategory, initialCategoryData, isEditing}) => {
         }finally {
             setLoading(false);
         }
-    }
+    } 
     return (
         <div className="p-4">
 

@@ -43,8 +43,8 @@ const Signup = () => {
                 return;
             }
             
-      
-            setError("");
+      setError("");
+            
             try {
               //upload image if present
                           if (profilePhoto) {
@@ -56,6 +56,7 @@ const Signup = () => {
                             fullName,
                             email,
                             password,
+                            
                              profileImageUrl
                         })
                         if (response.status === 201) {

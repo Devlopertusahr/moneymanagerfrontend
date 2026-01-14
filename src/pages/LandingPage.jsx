@@ -7,6 +7,7 @@ const LandingPage = () => {
         <div className="bg-white font-sans text-gray-800">
             <Header />
             <main>
+            
                 <HeroSection/>
                 <ProductShowcase />
             </main>

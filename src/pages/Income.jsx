@@ -1,4 +1,5 @@
-import Dashboard from "../components/Dashboard.jsx";
+import Dashboard from "../components/dashboard.jsx";
+
 import {useUser} from "../hooks/useUser.jsx";
 import {useEffect, useState} from "react";
 import axiosConfig from "../util/axiosConfig.jsx";
