@@ -1,4 +1,4 @@
-import Dashboard from "../components/dashboard.jsx"
+import Dashboard from "../components/Dashboard.jsx"
 
 import {useUser} from "../hooks/useUser.jsx";
 import {Plus} from "lucide-react";

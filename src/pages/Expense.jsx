@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import {useUser} from "../hooks/useUser.jsx";
 import axiosConfig from "../util/axiosConfig.jsx";
 import {API_ENDPOINTS} from "../util/apiEndpoints.js";
-import Dashboard from "../components/dashboard.jsx";
+import Dashboard from "../components/Dashboard.jsx";
 import ExpenseOverview from "../components/ExpenseOverview.jsx";
 import ExpenseList from "../components/ExpenseList.jsx";
 import Modal from "../components/Modal.jsx";
