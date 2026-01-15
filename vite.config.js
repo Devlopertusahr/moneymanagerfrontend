@@ -5,4 +5,10 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  
+  // ✅ ADD THESE LINES FOR NETLIFY
+  base: './',
+  build: {
+    chunkSizeWarningLimit: 1000,
+  }
 })
