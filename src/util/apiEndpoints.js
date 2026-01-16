@@ -4,8 +4,8 @@ export const BASE_URL = "https://money-manager-backend2.onrender.com/api/v1.0";
 const CLOUDINARY_CLOUD_NAME = "dqaoz5cod";
 
 export const API_ENDPOINTS = {
-    LOGIN: `${BASE_URL}/login`,
-    REGISTER: `${BASE_URL}/register`,
+    LOGIN: `${BASE_URL}/auth/login`,
+    REGISTER: `${BASE_URL}/auth/register`,
     GET_USER_INFO: `${BASE_URL}/profile`,
     GET_ALL_CATEGORIES: `${BASE_URL}/categories`,
     ADD_CATEGORY: `${BASE_URL}/categories`,
@@ -23,5 +23,7 @@ export const API_ENDPOINTS = {
     EMAIL_EXPENSE: `${BASE_URL}/email/expense-excel`,
     APPLY_FILTERS: `${BASE_URL}/filter`,
     DASHBOARD_DATA: `${BASE_URL}/dashboard`,
-    UPLOAD_IMAGE: `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`
+    UPLOAD_IMAGE: `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`,
+    ACTIVATE: `${BASE_URL}/activate`,  // Add this if you have activation
+    HEALTH: `${BASE_URL}/health`        // For testing
 }
